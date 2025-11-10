@@ -31,6 +31,8 @@ h1{
 .preview-text h2{
     text-align: center;
 }
+.preview-text h1{
+    font-size: 4rem;
 }
 .dark-mode{
     background-color: rgb(19, 19, 19);
