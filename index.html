@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Shadow of what was lost</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>James Islington</h1>
+    <div class="preview-container">
+        <div class="preview-text">
+            <h2>The Shadow Of What Was Lost</h2>
+            <p><i>The Shadow Of What Was Lost</i> follows Davian, a young student of the Gifted, who discovers he has
+                the forbidden magic of the Augurs, leading him and his friends into an ancient war.The story is set a
+                world still recovering from a war where the Augurs were overthrown, and those who use magic, the Gifted,
+                are now strictly controlled by the Four Tenents. When davian;s hidden power is revealed, he, along with
+                his friend Wirr, are forced into exile, uncovering secrets about the past and setting in motion events
+                that could change everything.</p>
+        </div>
+
+        <img id="pre-img" src="./assets/images/download.jpeg" alt="">
+    </div>
+    <script>
+        const bookImg=document.querySelector("#pre-img");
+        bookImg.addEventListener('click',function (){
+            if (document.lastChild.classList.contains("dark-mode")){
+                document.lastChild.classList.remove("dark-mode")
+            }
+            else{
+              document.lastChild.classList.add("dark-mode")  
+            }
+            
+        })
+    </script>
+</body>
+
+</html>
